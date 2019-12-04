@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.2 on win32)" generated="20191204 18:33:10.719" rpa="false">
+<suite id="s1" name="EDAT" source="E:\Projects\1_Live Projects\Logitech\POC\ElectronAppAutomation\ElectronDemoAppAutomation\testCases\EDAT.robot">
+<test id="s1-t1" name="View demo for window creation">
+<kw name="Launch App" library="ElectronDemoAppLibrary">
+<arguments>
+<arg>Electron API Demos</arg>
+</arguments>
+<msg timestamp="20191204 18:33:10.979" level="FAIL">TypeError: 'str' object is not callable</msg>
+<status status="FAIL" starttime="20191204 18:33:10.978" endtime="20191204 18:33:10.980"></status>
+</kw>
+<status status="FAIL" starttime="20191204 18:33:10.977" endtime="20191204 18:33:10.980" critical="yes">TypeError: 'str' object is not callable</status>
+</test>
+<test id="s1-t2" name="View demo for frame less window creation">
+<kw name="Launch App" library="ElectronDemoAppLibrary">
+<arguments>
+<arg>Electron API Demos app</arg>
+</arguments>
+<msg timestamp="20191204 18:33:10.983" level="FAIL">TypeError: 'str' object is not callable</msg>
+<status status="FAIL" starttime="20191204 18:33:10.983" endtime="20191204 18:33:10.984"></status>
+</kw>
+<status status="FAIL" starttime="20191204 18:33:10.982" endtime="20191204 18:33:10.984" critical="yes">TypeError: 'str' object is not callable</status>
+</test>
+<status status="FAIL" starttime="20191204 18:33:10.724" endtime="20191204 18:33:10.986"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" id="s1" name="EDAT">EDAT</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
